@@ -3,6 +3,27 @@ import { Holiday } from '@/types';
 export const holidays: Holiday[] = [
   // ========== 1月 ==========
   {
+    id: '61',
+    date: '2026-01-26',
+    year: '2026',
+    country: '印度',
+    chineseName: '共和国日',
+    englishName: 'Republic Day',
+    region: '亚洲',
+    type: '公共假日',
+    duration: '1天',
+    impact: '印度国庆日，全国放假，银行、政府机构关闭，企业可能停工。',
+    suggestions: [
+      '避免1月26日联系印度客户',
+      '提前确认订单和发货安排',
+      '可发送节日祝福维护客情'
+    ],
+    greetingZh: '共和国日快乐！',
+    greetingEn: 'Happy Republic Day!',
+    avoidColdEmail: true,
+    aliases: ['印度共和国日', 'India Republic Day'],
+  },
+  {
     id: '1',
     date: '2026-01-01',
     year: '2026',
@@ -63,6 +84,50 @@ export const holidays: Holiday[] = [
 
   // ========== 2月 ==========
   {
+    id: '54',
+    date: '2026-02-01',
+    year: '2026',
+    country: '美国',
+    chineseName: '超级碗星期日',
+    englishName: 'Super Bowl Sunday',
+    region: '北美洲',
+    type: '商业敏感日期',
+    duration: '1天',
+    impact: 'NFL总决赛日，美国最大体育盛事，广告营销高峰，零食、饮料、电视等产品需求激增。',
+    suggestions: [
+      '关注零售客户促销备货需求',
+      '体育用品、零食类产品提前2个月备货',
+      '广告营销产品需求高',
+      '当天客户可能较难联系'
+    ],
+    greetingZh: '超级碗星期日快乐！',
+    greetingEn: 'Enjoy the Super Bowl!',
+    avoidColdEmail: false,
+    aliases: ['超级碗', 'Super Bowl', 'SB'],
+  },
+  {
+    id: '55',
+    date: '2026-02-14',
+    year: '2026',
+    country: '美国/欧洲',
+    chineseName: '情人节',
+    englishName: 'Valentine\'s Day',
+    region: '北美洲',
+    type: '商业敏感日期',
+    duration: '1天',
+    impact: '全球性商业节日，鲜花、巧克力、珠宝、礼品需求激增，零售业销售旺季。',
+    suggestions: [
+      '提前3个月备货礼品类产品',
+      '关注珠宝、饰品、鲜花包装等品类',
+      '节日前2周物流高峰，预留时间',
+      '适合发送节日营销邮件'
+    ],
+    greetingZh: '情人节快乐！',
+    greetingEn: 'Happy Valentine\'s Day!',
+    avoidColdEmail: false,
+    aliases: ['情人节', 'Valentine', 'V Day', '214'],
+  },
+  {
     id: '4',
     date: '2026-02-17',
     year: '2026',
@@ -82,6 +147,7 @@ export const holidays: Holiday[] = [
     greetingZh: '马年大吉，万事如意！恭喜发财！',
     greetingEn: 'Happy Chinese New Year! Wishing you prosperity in the Year of the Horse.',
     avoidColdEmail: true,
+    aliases: ['过年', '新年', '农历新年', 'CNY', 'Lunar New Year'],
   },
   {
     id: '5',
@@ -206,6 +272,28 @@ export const holidays: Holiday[] = [
 
   // ========== 5月 ==========
   {
+    id: '56',
+    date: '2026-05-10',
+    year: '2026',
+    country: '美国/加拿大/欧洲',
+    chineseName: '母亲节',
+    englishName: 'Mother\'s Day',
+    region: '北美洲',
+    type: '商业敏感日期',
+    duration: '1天',
+    impact: '全球性商业节日，鲜花、珠宝、礼品、美容产品需求激增，零售业销售高峰。',
+    suggestions: [
+      '提前3个月备货礼品类产品',
+      '关注鲜花包装、珠宝、化妆品品类',
+      '节日前2周物流繁忙，预留时间',
+      '适合发送节日祝福和营销邮件'
+    ],
+    greetingZh: '母亲节快乐！',
+    greetingEn: 'Happy Mother\'s Day!',
+    avoidColdEmail: false,
+    aliases: ['母亲节', 'Mothers Day', '妈妈节'],
+  },
+  {
     id: '11',
     date: '2026-05-01',
     year: '2026',
@@ -246,6 +334,28 @@ export const holidays: Holiday[] = [
 
   // ========== 6月 ==========
   {
+    id: '57',
+    date: '2026-06-21',
+    year: '2026',
+    country: '美国/加拿大/欧洲',
+    chineseName: '父亲节',
+    englishName: 'Father\'s Day',
+    region: '北美洲',
+    type: '商业敏感日期',
+    duration: '1天',
+    impact: '全球性商业节日，男士用品、工具、运动器材、电子产品需求激增。',
+    suggestions: [
+      '提前3个月备货男士礼品类产品',
+      '关注工具、电子产品、运动用品品类',
+      '节日前2周物流高峰，预留缓冲期',
+      '适合发送节日营销邮件'
+    ],
+    greetingZh: '父亲节快乐！',
+    greetingEn: 'Happy Father\'s Day!',
+    avoidColdEmail: false,
+    aliases: ['父亲节', 'Fathers Day', '爸爸节'],
+  },
+  {
     id: '13',
     date: '2026-06-19',
     year: '2026',
@@ -266,6 +376,28 @@ export const holidays: Holiday[] = [
   },
 
   // ========== 7月 ==========
+  {
+    id: '58',
+    date: '2026-07-15',
+    year: '2026',
+    country: '美国/全球电商',
+    chineseName: '亚马逊会员日',
+    englishName: 'Amazon Prime Day',
+    region: '北美洲',
+    type: '商业敏感日期',
+    duration: '2天',
+    impact: '全球电商购物狂欢节，销量激增，电子产品、家居用品需求爆发。',
+    suggestions: [
+      '提前3个月备货电商客户',
+      '关注亚马逊卖家补货需求',
+      '物流高峰，仓储可能爆满',
+      '适合跟进电商客户订单'
+    ],
+    greetingZh: 'Prime Day 大卖！',
+    greetingEn: 'Happy Prime Day!',
+    avoidColdEmail: false,
+    aliases: ['Prime Day', 'PD', '会员日', '亚马逊Prime'],
+  },
   {
     id: '14',
     date: '2026-07-01',
@@ -308,6 +440,70 @@ export const holidays: Holiday[] = [
 
   // ========== 8月 ==========
   {
+    id: '66',
+    date: '2026-08-15',
+    year: '2026',
+    country: '印度',
+    chineseName: '独立日',
+    englishName: 'Independence Day',
+    region: '亚洲',
+    type: '公共假日',
+    duration: '1天',
+    impact: '印度国庆日，全国放假，政府机构和企业关闭，庆祝活动盛大。',
+    suggestions: [
+      '避免8月15日联系印度客户',
+      '提前确认订单和物流安排',
+      '发送节日祝福维护客情'
+    ],
+    greetingZh: '独立日快乐！',
+    greetingEn: 'Happy Independence Day!',
+    avoidColdEmail: true,
+    aliases: ['印度独立日', 'India Independence Day'],
+  },
+  {
+    id: '59',
+    date: '2026-08-15',
+    year: '2026',
+    country: '美国',
+    chineseName: '返校季',
+    englishName: 'Back to School Season',
+    region: '北美洲',
+    type: '商业敏感日期',
+    duration: '整个8月',
+    impact: '学生用品、服装、电子产品、背包等品类需求激增，零售业旺季。',
+    suggestions: [
+      '提前3个月备货文具、服装、电子产品',
+      '关注零售客户夏末补货需求',
+      '物流时效注意节日影响',
+      '适合发送返校季营销邮件'
+    ],
+    greetingZh: '返校季生意兴隆！',
+    greetingEn: 'Happy Back to School Season!',
+    avoidColdEmail: false,
+    aliases: ['返校季', 'Back to School', 'BTS', '开学季'],
+  },
+  {
+    id: '67',
+    date: '2026-08-30',
+    year: '2026',
+    country: '哈萨克斯坦',
+    chineseName: '宪法日',
+    englishName: 'Constitution Day',
+    region: '亚洲',
+    type: '公共假日',
+    duration: '1天',
+    impact: '哈萨克斯坦国家假日，政府和企业放假。',
+    suggestions: [
+      '避免8月30日联系哈萨克斯坦客户',
+      '提前确认订单安排',
+      '可发送节日祝福'
+    ],
+    greetingZh: '宪法日快乐！',
+    greetingEn: 'Happy Constitution Day!',
+    avoidColdEmail: true,
+    aliases: ['哈萨克斯坦宪法日', 'Kazakhstan Constitution'],
+  },
+  {
     id: '16',
     date: '2026-08-15',
     year: '2026',
@@ -328,6 +524,27 @@ export const holidays: Holiday[] = [
   },
 
   // ========== 9月 ==========
+  {
+    id: '68',
+    date: '2026-10-02',
+    year: '2026',
+    country: '印度',
+    chineseName: '甘地诞辰',
+    englishName: 'Gandhi Jayanti',
+    region: '亚洲',
+    type: '公共假日',
+    duration: '1天',
+    impact: '纪念圣雄甘地诞辰，印度全国公共假日，政府机构和企业关闭。',
+    suggestions: [
+      '避免10月2日联系印度客户',
+      '提前确认订单和物流',
+      '可发送节日祝福'
+    ],
+    greetingZh: '甘地诞辰快乐！',
+    greetingEn: 'Happy Gandhi Jayanti!',
+    avoidColdEmail: true,
+    aliases: ['甘地诞辰', 'Gandhi Jayanti', '甘地纪念日'],
+  },
   {
     id: '17',
     date: '2026-09-07',
@@ -426,6 +643,7 @@ export const holidays: Holiday[] = [
     greetingZh: '万圣节快乐！',
     greetingEn: 'Happy Halloween!',
     avoidColdEmail: false,
+    aliases: ['万圣', 'Halloween', '万圣夜'],
   },
 
   // ========== 11月 ==========
@@ -448,6 +666,7 @@ export const holidays: Holiday[] = [
     greetingZh: '双十一大卖！',
     greetingEn: 'Wishing you a successful Singles\' Day!',
     avoidColdEmail: false,
+    aliases: ['双11', '11.11', '双十一', '光棍节', 'Singles Day'],
   },
   {
     id: '23',
@@ -508,6 +727,7 @@ export const holidays: Holiday[] = [
     greetingZh: '祝您黑五大卖！',
     greetingEn: 'Wishing you a successful Black Friday!',
     avoidColdEmail: false,
+    aliases: ['黑五', 'Black Friday', 'BF', '黑色星期五'],
   },
   {
     id: '26',
@@ -528,9 +748,52 @@ export const holidays: Holiday[] = [
     greetingZh: '网一大卖！',
     greetingEn: 'Happy Cyber Monday!',
     avoidColdEmail: false,
+    aliases: ['网一', 'Cyber Monday', 'CM', '网购星期一'],
+  },
+  {
+    id: '60',
+    date: '2026-11-28',
+    year: '2026',
+    country: '美国',
+    chineseName: '小企业星期六',
+    englishName: 'Small Business Saturday',
+    region: '北美洲',
+    type: '商业敏感日期',
+    duration: '1天',
+    impact: '支持小企业日，鼓励消费者到本地小商店购物，零售业持续旺季。',
+    suggestions: [
+      '关注中小零售客户补货需求',
+      '适合跟进小批量订单',
+      '物流仍在黑五高峰期'
+    ],
+    greetingZh: '小企业星期六快乐！',
+    greetingEn: 'Happy Small Business Saturday!',
+    avoidColdEmail: false,
+    aliases: ['小企业星期六', 'SBS', 'Small Business Saturday'],
   },
 
   // ========== 12月 ==========
+  {
+    id: '69',
+    date: '2026-12-16',
+    year: '2026',
+    country: '哈萨克斯坦',
+    chineseName: '独立日',
+    englishName: 'Independence Day',
+    region: '亚洲',
+    type: '公共假日',
+    duration: '2天（12月16-17日）',
+    impact: '哈萨克斯坦国庆日，全国最重要节日之一，政府和企业放假2天。',
+    suggestions: [
+      '避免12月16-17日联系哈萨克斯坦客户',
+      '提前2周确认订单和物流',
+      '发送独立日祝福维护客情'
+    ],
+    greetingZh: '独立日快乐！',
+    greetingEn: 'Happy Independence Day!',
+    avoidColdEmail: true,
+    aliases: ['哈萨克斯坦独立日', 'Kazakhstan Independence'],
+  },
   {
     id: '27',
     date: '2026-12-12',
@@ -550,6 +813,7 @@ export const holidays: Holiday[] = [
     greetingZh: '双十二大卖！',
     greetingEn: 'Happy 12.12 Shopping Festival!',
     avoidColdEmail: false,
+    aliases: ['双12', '12.12', '双十二', '1212'],
   },
   {
     id: '28',
@@ -571,6 +835,7 @@ export const holidays: Holiday[] = [
     greetingZh: '祝您和家人圣诞快乐，新年吉祥！',
     greetingEn: 'Wishing you and your family a Merry Christmas and a Happy New Year!',
     avoidColdEmail: true,
+    aliases: ['圣诞', 'Christmas', 'Xmas', '耶诞节'],
   },
   {
     id: '29',
@@ -721,6 +986,48 @@ export const holidays: Holiday[] = [
     avoidColdEmail: true,
   },
 
+  {
+    id: '62',
+    date: '2026-03-08',
+    year: '2026',
+    country: '哈萨克斯坦/俄罗斯/中亚',
+    chineseName: '国际妇女节',
+    englishName: 'International Women\'s Day',
+    region: '亚洲',
+    type: '公共假日',
+    duration: '1天',
+    impact: '中亚国家重要节日，政府和企业放假，庆祝女性权益。',
+    suggestions: [
+      '避免3月8日联系中亚客户',
+      '适合发送节日祝福给女性客户',
+      '提前确认订单安排'
+    ],
+    greetingZh: '祝您三八妇女节快乐！',
+    greetingEn: 'Happy International Women\'s Day!',
+    avoidColdEmail: true,
+    aliases: ['妇女节', '三八节', '38节', 'Women\'s Day'],
+  },
+  {
+    id: '63',
+    date: '2026-03-14',
+    year: '2026',
+    country: '印度',
+    chineseName: '洒红节',
+    englishName: 'Holi',
+    region: '亚洲',
+    type: '宗教节日',
+    duration: '2天',
+    impact: '印度色彩节，全国庆祝，街头活动盛大，企业可能停工或缩短工时。',
+    suggestions: [
+      '避免节日期间联系客户',
+      '提前2周确认订单状态',
+      '发送节日祝福维护客情'
+    ],
+    greetingZh: '洒红节快乐！愿您生活多姿多彩！',
+    greetingEn: 'Happy Holi! May your life be filled with colors!',
+    avoidColdEmail: true,
+    aliases: ['洒红节', 'Holi', '胡里节', '色彩节'],
+  },
   // 哈萨克斯坦纳乌鲁斯节
   {
     id: '36',
@@ -741,6 +1048,7 @@ export const holidays: Holiday[] = [
     greetingZh: '纳乌鲁斯节快乐！',
     greetingEn: 'Happy Nauryz!',
     avoidColdEmail: true,
+    aliases: ['纳乌鲁斯', 'Nauryz', '哈萨克斯坦新年'],
   },
 
   // 印尼宁静日
@@ -986,26 +1294,48 @@ export const holidays: Holiday[] = [
     avoidColdEmail: true,
   },
 
+  {
+    id: '64',
+    date: '2026-05-07',
+    year: '2026',
+    country: '哈萨克斯坦',
+    chineseName: '祖国保卫者日',
+    englishName: 'Defender of the Fatherland Day',
+    region: '亚洲',
+    type: '公共假日',
+    duration: '1天',
+    impact: '哈萨克斯坦国家假日，纪念军队，政府和企业放假。',
+    suggestions: [
+      '避免5月7日联系哈萨克斯坦客户',
+      '提前确认订单安排',
+      '可发送节日祝福'
+    ],
+    greetingZh: '祖国保卫者日快乐！',
+    greetingEn: 'Happy Defender of the Fatherland Day!',
+    avoidColdEmail: true,
+    aliases: ['保卫者日', 'Defender Day'],
+  },
   // 俄罗斯胜利日
   {
     id: '48',
     date: '2026-05-09',
     year: '2026',
-    country: '俄罗斯',
+    country: '俄罗斯/哈萨克斯坦',
     chineseName: '胜利日',
     englishName: 'Victory Day',
     region: '欧洲',
     type: '公共假日',
     duration: '3-4天（含周末可能调休）',
-    impact: '俄罗斯最重要节日之一，全国性庆祝，企业和政府机构放假。',
+    impact: '俄罗斯和中亚国家最重要节日之一，全国性庆祝，企业和政府机构放假。',
     suggestions: [
-      '避免5月9日前后联系俄罗斯客户',
+      '避免5月9日前后联系俄罗斯、哈萨克斯坦客户',
       '提前2周确认订单和发货计划',
       '尊重历史意义，发送适当祝福'
     ],
     greetingZh: '胜利日快乐！',
     greetingEn: 'С Днём Победы! (Happy Victory Day!)',
     avoidColdEmail: true,
+    aliases: ['胜利日', '二战胜利日', 'Victory Day'],
   },
 
   // 土耳其古尔邦节

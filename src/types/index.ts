@@ -16,6 +16,7 @@ export type Holiday = {
   greetingZh?: string;
   greetingEn?: string;
   avoidColdEmail: boolean;
+  aliases?: string[]; // Search aliases (e.g., "黑五" for "黑色星期五")
 };
 
 export type FilterState = {

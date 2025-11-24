@@ -49,8 +49,11 @@ export default function Home() {
         const matchesEnglishName = holiday.englishName.toLowerCase().includes(query);
         const matchesCountry = holiday.country.toLowerCase().includes(query);
         const matchesRegion = holiday.region.toLowerCase().includes(query);
+        const matchesAliases = holiday.aliases?.some(alias =>
+          alias.toLowerCase().includes(query)
+        ) || false;
 
-        if (!matchesChineseName && !matchesEnglishName && !matchesCountry && !matchesRegion) {
+        if (!matchesChineseName && !matchesEnglishName && !matchesCountry && !matchesRegion && !matchesAliases) {
           return false;
         }
       }
